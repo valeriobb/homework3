@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+     /* Colore di sfondo */
+     background: #8abbe4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Colore dei link */
+    transition: color 0.3s;
+
+}
+
+.page-links {
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3; /* Colore dei link al passaggio del mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ffffff;
+}
+
+thead th,
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6; /* Colore del bordo delle celle */
+}
+
+thead th {
+    background-color: #007bff; /* Colore di sfondo dell'intestazione */
+    color: #ffffff; /* Colore del testo dell'intestazione */
+    text-align: left;
+}
+
+tbody td {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Colore di sfondo delle righe pari */
+}
+
+table img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end; /* Allinea le azioni a destra */
+    margin-top: 10px;
+}
+
+.actions a {
+    margin-left: 10px; /* Aggiunge uno spazio tra le azioni */
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+/* Stile per l'alert di successo */
+.alert-success {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: #ffbebe;
+    color: #721c24;
+    border: 1px solid #ff7d7d;
+}
