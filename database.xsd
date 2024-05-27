@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Elemento radice -->
+    <xs:element name="database">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="users" type="usersType"/>
+                <xs:element name="citazioni" type="citazioniType"/>
+                <xs:element name="saghe" type="sagheType"/>
+                <xs:element name="posts" type="postsType"/>
+                <xs:element name="recensioni" type="recensioniType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definizione del tipo users -->
+    <xs:complexType name="usersType">
+        <xs:sequence>
+            <xs:element name="user" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="id" type="xs:integer" use="required"/>
+                    <xs:attribute name="username" type="xs:string" use="required"/>
+                    <xs:attribute name="email" type="xs:string" use="required"/>
+                    <xs:attribute name="password" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definizione del tipo citazioni -->
+    <xs:complexType name="citazioniType">
+    <xs:sequence>
+        <xs:element name="citazione" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="cit" type="xs:string"/>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:integer" use="required"/>
+                <xs:attribute name="nome_pers" type="xs:string" use="required"/>
+                <xs:attribute name="img" type="xs:string" use="required"/>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+    <!-- Definizione del tipo saghe -->
+    <xs:complexType name="sagheType">
+        <xs:sequence>
+            <xs:element name="saga" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="trama" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:integer" use="required"/>
+                    <xs:attribute name="nome" type="xs:string" use="required"/>
+                    <xs:attribute name="ep_iniziale" type="xs:integer" use="required"/>
+                    <xs:attribute name="ep_finale" type="xs:integer" use="required"/>
+                    <xs:attribute name="img" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definizione del tipo posts -->
+    <xs:complexType name="postsType">
+        <xs:sequence>
+            <xs:element name="post" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="testo" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:integer" use="required"/>
+                    <xs:attribute name="titolo" type="xs:string" use="required"/>
+                    <xs:attribute name="autore" type="xs:string" use="required"/>
+                    <xs:attribute name="data_publ" type="xs:date" use="required"/>
+                    <xs:attribute name="id_user" type="xs:integer" use="required"/>
+                    <xs:attribute name="img" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definizione del tipo recensioni -->
+    <xs:complexType name="recensioniType">
+        <xs:sequence>
+            <xs:element name="recensione" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="review" type="xs:integer"/>
+                    </xs:sequence>
+                    <xs:attribute name="id_user" type="xs:integer" use="required"/>
+                    <xs:attribute name="id_saga" type="xs:integer" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

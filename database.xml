@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="database.xsd">
+    <users>
+        <user id="1" username="admin" email="admin@gmail.com" password="$2y$10$c6q4YekuNd7hGsIZ0KoEZ.3DdM0kNnQ4NENHCp/rj/dxd6tgE3Voa"/>
+        <user id="2" username="Antonio" email="anto@gmail.com" password="$2y$10$8Nb562yettrgPzZpRABs4.0Ff.Vld7TGjmn0FJWxxcF5NkglFTrQC"/>
+        <user id="3" username="Valerio" email="vale@gmail.com" password="$2y$10$9K8ohTEQmNEDhnr8wFWAxOFcX.WY6lJIMFra66/iKIAidSN5e.n22"/>
+        <user id="4" username="Professore" email="prof@gmail.com" password="$2y$10$YWyM2R5jjmp.fBhu3CdUnOOKUsUxgAnm08BRzQDAVYvwiboNJsgQu"/>
+    </users>
+    <citazioni>
+        <citazione id="1" nome_pers="Monkey D. Luffy" img="images/luffy.jpeg">
+            <cit>Io diventerò il Re dei Pirati!</cit>
+        </citazione>
+        <citazione id="2" nome_pers="Gol D. Roger" img="images/roger.jpeg">
+            <cit>Ci sono cose che non si possono fermare: la volontà ereditata, i sogni della gente, lo scorrere del tempo. Finché le persone avranno sete di libertà, queste cose dureranno per sempre.</cit>
+        </citazione>
+        <citazione id="3" nome_pers="Kobi" img="images/kobi.jpeg">
+            <cit>Adesso basta! Piantiamola di combattere, tutti quanti! Non possiamo buttare al vento tutte queste vite. Avete già compiuto la vostra missione, eppure vi ostinate a inseguire dei pirati che non hanno intenzione di farvi male! Stiamo abbandonando uomini che potrebbero essere salvati!</cit>
+        </citazione>
+    </citazioni>
+    <saghe>
+        <saga id="1" nome="East Blue" ep_iniziale="1" ep_finale="61" img="images/e1.jpg">
+            <trama>La saga del mare orientale è la prima grande saga della serie.&#13;
+                Rufy è un bambino del mare orientale che fa la conoscenza di Shanks.&#13;
+                È qui che l'avventura ha inizio ed è qui che il ragazzo recluta i primi membri della sua ciurma.&#13;
+                La saga inizia con un flashback riguardante l'esecuzione di Gol D. Roger.&#13;
+                Prima di morire il re dei pirati incitò i presenti ad andare alla ricerca del suo leggendario tesoro.&#13;
+                Questo diede il via all'epoca d'oro della pirateria, nella quale numerosissimi uomini presero il mare per andare alla ricerca dello One Piece.&#13;
+                Durante questa saga, Rufy si dirige verso la Rotta Maggiore e si circonda di compagni: Zoro, Nami, Usop e Sanji.&#13;
+                Nel frattempo si guadagna anche una taglia di 30.000.000 di Berry.&#13;
+            </trama>
+        </saga>
+        <saga id="2" nome="Alabasta" ep_iniziale="62" ep_finale="135" img="images/ala.jpg">
+            <trama>Nel corso della battaglia scoprono che uno dei membri del gruppo criminale, Miss Wednesday, è in realtà Bibi,&#13;
+                la principessa di Alabasta. Bibi si è infiltrata nella Baroque Works per indagare sul coinvolgimento della &#13;
+                banda nello scoppio della guerra civile ad Alabasta. Il capo della Baroque Works che ha scoperto il suo doppio gioco è nientemeno che...&#13;
+                Il grande Sir Crocodile, un membro della Flotta dei sette, pirati riconosciuti dal Governo Mondiale.&#13;
+                Affinché la pace possa tornare ad Alabasta, Crocodile deve essere fermato.&#13;
+                Rufy accetta la richiesta di Bibi e la riporta ad Alabasta. Dopo una serie di avventure a Little Garden e nel Regno di Drum,&#13;
+                Chopper si unisce alla ciurma in qualità di medico di bordo.&#13;
+                In seguito, la Merry approda ad Alabasta.&#13;
+                I Pirati di Cappello di paglia giungono nel regno desertico di Alabasta con l'intento di aiutare la principessa Bibi &#13;
+                a raggiungere il prima possibile la capitale Alubarna per fermare l'imminente guerra civile che stava per scoppiare &#13;
+                tra i ribelli guidati da Kosa e l'esercito reale comandato da Chaka. Tuttavia il vero istigatore della guerra, Mr. Zero,&#13;
+                e i suoi agenti della Baroque Works faranno di tutto per ostacolarli.&#13;
+                Il regno di Alabasta si trova a Sandy, la quarta isola che Rufy e compagni incontrano nella Rotta Maggiore;&#13;
+                è un vasto regno desertico governato dal re Nefertari Cobra.&#13;
+            </trama>
+        </saga>
+        <saga id="3" nome="Skypea" ep_iniziale="136" ep_finale="206" img="images/skypea.jpg">
+            <trama>La ciurma riesce a raggiungere il mare del cielo e, poco dopo il suo arrivo, viene a contatto coi suoi abitanti:&#13;
+                un gruppo ostile di persone apparentemente primitive prima, ed i più amichevoli e civilizzati abitanti di Angel Island poi,&#13;
+                mentre il gruppo si intrattiene con questi ultimi, imparando la storia del posto e le tecnologie che lo caratterizzano,&#13;
+                Nami esplora il mare bianco. La ragazza riesce a raggiungere Skypiea, ma si rende conto che l'arrivo della ciurma è&#13;
+                stato giudicato illegale e che i suoi componenti sono ricercati. Nonostante riescano a sfuggire all'iniziale tentativo di arresto,&#13;
+                la nave e parte dell'equipaggio vengono portati nel cuore di Skypiea, dove verranno giudicati da Ener, l'attuale Dio.&#13;
+                Nel tentativo di liberare i loro compagni, Rufy, Sanji ed Usop si dirigono a Skypiea.&#13;
+                Entrando a Skypiea, Rufy, Sanji e Usop causano l'ira dei quattro sacerdoti di Ener.&#13;
+                Mentre i tre affrontano uno dei sacerdoti, il resto della ciurma ne affronta un altro.&#13;
+                Questi ultimi vengono salvati dal precedente Dio, Gan Forr, il quale, nonostante venga sconfitto,&#13;
+                riesce a mettere in fuga il sacerdote. Intanto, Rufy riesce a sconfiggere l'altro sacerdote ed il suo gruppo si riunisce col resto della ciurma.&#13;
+                Una volta guarito, Gan Forr informa i pirati che, da qualche parte a Skypiea, è nascosta una città dorata.&#13;
+                Mentre sono alla ricerca della città, i pirati si ritrovano in mezzo ad una battaglia tra Ener ed i suoi sottoposti e gli Shandia, i nativi di Skypiea.&#13;
+            </trama>
+        </saga>
+    </saghe>
+    <posts>
+        <post id="1" titolo="Joy Boy e Nika" autore="Valerio" data_publ="2024-05-07" id_user="3" img="images/nika.jpg">
+            <testo>Parlando di persone ed esseri leggendari, c'è poi la questione di Joy Boy e Nika, il dio del sole.
+                Joy Boy ha a che fare con i Cento anni di vuoto, e sembra si reincarni in Rufy, stando a quanto dice Zunisha dopo la sua sconfitta con Kaido.
+                E Nika? Risvegliando il suo frutto del diavolo, Rufy è in grado di utilizzare i poteri di questo dio leggendario.
+                Una figura che molti stanno aspettando di vedere nelle sue vere fattezze da anni.</testo>
+        </post>
+        <post id="2" titolo="Teorie sul finale" autore="Professore" data_publ="2024-05-06" id_user="4" img="images/luff.jpg">
+            <testo>La ciurma di Cappello di Paglia ha trovato una nuova isola. Tutto sembra pronto per la battaglia finale,
+                ma le cose non sono sempre come sembrano, e gli sviluppi imprevisti sono sempre dietro l'angolo.
+                Rufy e i suoi compagni hanno superato mille avversità, e sono ormai vicinissimi al loro obiettivo.
+                Ma cosa li aspetta alla fine della Grand Line? Le teorie sono tante, e i fan sono in fibrillazione.
+            </testo>
+        </post>
+        <post id="3" titolo="Cosa è il One Piece" autore="Antonio" data_publ="2024-05-26" id_user="2" img="images/mugiwara.jpg">
+            <testo>Il grande tesoro ha ormai raggiunto proporzioni colossali nelle teorie dei fan, una leggenda che tutti vogliono vedere svelata.&#13;
+                Si dice sia di valore inestimabile, e grazie alla sua esistenza centinaia di pirati sono partiti per trovarlo.&#13;
+                E milioni di lettori hanno fatto la stessa cosa, continuando a sfogliare le pagine del manga per tutti questi anni!&#13;
+            </testo>
+        </post>
+    </posts>
+    <recensioni>
+        <recensione id_user="3" id_saga="1">
+            <review>2</review>
+        </recensione>
+        <recensione id_user="2" id_saga="2">
+            <review>4</review>
+        </recensione>
+        <recensione id_user="2" id_saga="1">
+            <review>5</review>
+        </recensione>
+        <recensione id_user="2" id_saga="3">
+            <review>2</review>
+        </recensione>
+    </recensioni>
+</database>
